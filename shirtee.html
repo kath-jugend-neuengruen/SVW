@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>T-Shirts selbst gestalten | Shirtee</title>
+    <meta name="description" content="Gestalte dein eigenes T-Shirt ganz einfach mit dem Shirtee Designer. Jetzt ausprobieren!">
+    
+    <!-- Shirtee Stylesheet -->
+    <link href="https://www.shirtee.com/js/iframe/iframe.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Shirtee iFrame Resizer Script -->
+    <script src="https://www.shirtee.com/js/iframe/iframeResizer.min.js"></script>
+
+    <!-- Optional: eigenes CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header, footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        main {
+            padding: 1rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        iframe {
+            width: 100%;
+            min-height: 900px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>T-Shirts selbst gestalten</h1>
+</header>
+
+<main>
+    <p>Gestalte jetzt dein individuelles T-Shirt mit unserem Partner Shirtee! 🎨👕</p>
+
+    <!-- Shirtee iFrame -->
+    <iframe
+        src="https://www.shirtee.com/de/t-shirts-selbst-gestalten/iframe/?di=97102"
+        sandbox="allow-top-navigation allow-same-origin allow-scripts"
+        scrolling="no"
+        id="shirtee-iframe"
+        title="Shirtee T-Shirt Designer"
+        onload="iFrameResize({minHeight:900})"
+    ></iframe>
+</main>
+
+<footer>
+    &copy; 2025 Dein Shopname – Alle Rechte vorbehalten
+</footer>
+
+</body>
+</html>
